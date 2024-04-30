@@ -1,0 +1,34 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+img.card-img-top {
+  height: 370px;
+}
+.card-body {
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.badgePrice {
+  font-size: 1em;
+  font-weight: 400;
+}
+.form-control {
+  background-color: #dee2e6;
+}
+.list-group-item {
+  margin-bottom: 20px;
+  border: 1px solid #dee2e6;
+  border-radius: inherit;
+}
